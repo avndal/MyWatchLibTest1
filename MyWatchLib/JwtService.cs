@@ -11,7 +11,7 @@ namespace MyWatchLib
 {
     public class JwtService
     {
-        private readonly string _secretKey = "DinSuperHemmeligNøgle12345678"; // Sørg for at holde denne sikker
+        private readonly string _secretKey = "DetteErEnMegetSikkerOgLangNøgle123!"; // Sørg for at holde denne sikker
 
         public string GenerateToken(string username, string role)
         {
